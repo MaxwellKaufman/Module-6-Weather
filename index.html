@@ -7,6 +7,37 @@
     <link rel="stylesheet" href="/assets/styles.css" />
   </head>
   <body>
+    <header>Weather app</header>
+    <section>
+      <form id="search-form">
+        <input
+          type="text"
+          id="search-input"
+          placeholder="Enter city name"
+          required
+        />
+        <button type="search-buttton">Search</button>
+      </form>
+      <ul class="cites" id="search-history"></ul>
+    </section>
+    <main>
+      <section id="weather-info">
+        <div id="weather-icon"></div>
+        <div id="weather-info-text">
+          <h2 id="city-name"></h2>
+          <p id="weather-description"></p>
+          <p id="temperature"></p>
+          <p id="humidity"></p>
+          <p id="wind-speed"></p>
+        </div>
+        <div id="5-day-forecast"></div>
+        <h3>"date"</h3>
+        <ol>
+          "weather"
+        </ol>
+      </section>
+    </main>
+
     <script src="scripts.js"></script>
   </body>
 </html>
